@@ -1,0 +1,47 @@
+# -------------------------
+# Python & ML Project Ignore
+# -------------------------
+
+# Virtual environments
+.venv/
+venv/
+env/
+.venv311/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# Data folder (usually large)
+data/
+
+# ML model files
+*.h5
+*.hdf5
+*.pkl
+*.sav
+
+# Training artifacts
+*.ckpt
+*.tflite
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Byte-compiled / compiled
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
